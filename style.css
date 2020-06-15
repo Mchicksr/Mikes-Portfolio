@@ -39,6 +39,7 @@ img{
    max-width: 500px;
   height: 350px;
   position: absolute;
+  left: 100px;
   padding-bottom: 80px;
   padding-top: 10px;
 }
