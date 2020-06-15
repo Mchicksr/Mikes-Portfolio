@@ -38,7 +38,9 @@ ul{
 img{
    max-width: 500px;
   height: 350px;
-  position: relative;
+  position: absolute;
+  padding-left:50%;
+  padding-right:50%;
   padding-bottom: 80px;
   padding-top: 10px;
 }
