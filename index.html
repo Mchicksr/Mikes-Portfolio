@@ -12,12 +12,20 @@
    <body>
       <header>
        <div class = "intro wrapper" >
-            <nav>
-           
-               <h1> Michael Hicks Richardson </h1>
-               <h2> Software Developer </h2>
-            </div>
+         <div class ="hero">
+            <section id="home">
+         <h1> Michael Hicks Richardson </h1>
+               <h2> Software Developer </h2>  
+            </section>
+         </div> 
+         <nav>
+            <ul id="menu">
+               <li><a href="#">Home</a></li>
+               <li><a href= "#about">About</a></li>
+               <li><a href ="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>                  
          </nav>
+      </div>
       </header>
          <div>
             
@@ -27,6 +35,7 @@
       </div>
       <section>
          <div class = "intro wrapper" > 
+           
             <h3>Hello! Im Michael Hicks Richardson</h3>
             <p> I am a software developer from Atlanta, Ga </p>
             <p> 3 interesting facts about myself</p>
@@ -38,29 +47,60 @@
             </ol>
             </p>
             <p>Check out my repository to see my work!</p>
+            
          </div>
+         
       </section>
       <hr>
       <div class = "intro wrapper" >
+         <section id="about">
          <h3>About Mike</h3>
-         <p>I am a software developer looking to make your online vision come true. Coming from a background of music I have experience in creating beautiful web pages to draw the attention of customers.</p>
-         <p>the services I span from making beautiful web pages and creating ios and android apps!</p>>
-         <p>I am happy to join Thinkful So that I can become fluent and a more efficent software developer!</p>
+            <p>I am a software developer looking to make your online vision come true. Coming from a background of music I have experience in creating beautiful web pages to draw the attention of customers.</p>
+            <p>The services I provide are making engaging web pages and creating ios and android games and apps!</p>
+            <p>I am happy to join Thinkful So that I can become fluent and a more efficent software developer!</p>
+         </section>
       </div>
       <hr>
       <div>
          <div class = "intro wrapper" >
-         <h3>Projects</h3>
+            <section id="portfolio">
+         <h3>Portfolio</h3>
          <p>I'm baby try-hard raw denim poutine cred 3 wolf moon brunch cold-pressed, biodiesel direct trade ramps lumbersexual quinoa tousled affogato portland. Aesthetic af edison bulb hexagon retro woke. Intelligentsia church-key echo park pour-over snackwave kogi hammock. Prism twee post-ironic whatever sustainable, schlitz thundercats blue bottle pour-over tilde kombucha freegan deep v crucifix. Kombucha vexillologist migas, synth woke offal glossier kickstarter butcher palo santo asymmetrical microdosing. XOXO unicorn vinyl jean shorts tote bag +1 synth PBR&B typewriter chambray pickled tofu offal.</p>
          <p> <a href= "link to projects" target="blank">link to Projects</a></p>
+         </section>
       </div>
+
       <div class = "intro wrapper" >
-         <h3>Contact Me!</h3>
+         <section id=contact>
+            <h3>Contact Me!</h3>
+            <form action="https://formspree.io/xnqgwlpv" method="post">
+
+               <label for="user-name">First name</label>
+               <input id="user-name" type="text" name="name"
+               placeholder="Enter first Name"><br>
+               
+               
+               <label for="user-name2">Last name</label>
+               <input id="user-name2" type="text" name="name"
+               placeholder="Enter last Name"><br>
+      
+               <label for="phonenum">Phone #:</label>
+               <input id="phonenum" type="text" name="phone"
+               pattern="/d{3}{\-}\d{3}{/-}\d{4}"
+               placeholder="xxx-xxx-xxxx"/><br>
+
+               <label for="form-message">Comment</label>
+         <textarea id="form-message" name="message"></textarea><br>
+         <button type="submit">Submit!</button>
+            <button type="reset">Reset</button><br>
+
+            </form>
+         </section>
          <article>
             <p>Looking forward to working with you!</p>
             <ul>
-            <li><a href="https://www.linkedin.com/in/michael-hicks-richardson-240ab41a1/" target="blank">Linkedin</a> </li>
-            <li> <a href="https://github.com/Mchicksr/" target="blank">Github</a></li>
+               <li><a href="https://www.linkedin.com/in/michael-hicks-richardson-240ab41a1/" target="blank">Linkedin</a> </li>
+               <li> <a href="https://github.com/Mchicksr/" target="blank">Github</a></li>
             </ul>
          </article>
       </div>
